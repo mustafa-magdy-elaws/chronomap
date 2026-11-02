@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mustafa-magdy-elaws.github.io/chronomap/</loc><lastmod>2026-11-02</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://mustafa-magdy-elaws.github.io/chronomap/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/2-XfECEzMPM/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>ChronoMap Planning Approach – Schedule on the Site Map</video:title>
+      <video:description>ChronoMap: the Primavera P6 schedule played on the real site map, day by day. A planning approach for linear infrastructure by Mostafa Magdy ElAws.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/2-XfECEzMPM</video:player_loc>
+      <video:duration>82</video:duration>
+    </video:video>
+  </url>
 </urlset>
