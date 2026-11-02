@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ChronoMap: a map-based planning approach | Mostafa Magdy ElAws</title>
+<meta name="description" content="ChronoMap is a map-based planning approach for linear infrastructure: the Primavera P6 schedule played on the real site map, day by day. Developed by Mostafa Magdy ElAws, first published 1 November 2026.">
+<meta name="author" content="Mostafa Magdy ElAws">
+<meta name="keywords" content="ChronoMap, ChronoMap planning, map-based planning, visual planning, location-based scheduling, 4D planning, Primavera P6, linear infrastructure, project controls, Mostafa Magdy ElAws">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ChronoMap: a map-based planning approach">
+<meta property="og:description" content="The project schedule, played on the real site map, day by day. A planning approach for linear infrastructure by Mostafa Magdy ElAws.">
+<link rel="canonical" href="https://mustafa-magdy-elaws.github.io/chronomap/">
+<meta property="og:url" content="https://mustafa-magdy-elaws.github.io/chronomap/">
+<meta property="og:image" content="https://mustafa-magdy-elaws.github.io/chronomap/assets/cover.jpg">
+<meta property="article:published_time" content="2026-11-01">
+<meta property="article:author" content="Mostafa Magdy ElAws">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "ChronoMap: a map-based planning approach",
+  "alternativeHeadline": "Stop Reading the Schedule. Start Seeing the Project.",
+  "description": "ChronoMap is a map-based planning approach for linear infrastructure: the Primavera P6 schedule played on the real site map, day by day.",
+  "datePublished": "2026-11-01",
+  "dateModified": "2026-11-02",
+  "inLanguage": ["en", "ar"],
+  "image": "https://mustafa-magdy-elaws.github.io/chronomap/assets/cover.jpg",
+  "url": "https://mustafa-magdy-elaws.github.io/chronomap/",
+  "keywords": "ChronoMap, map-based planning, visual planning, location-based scheduling, 4D planning, Primavera P6, linear infrastructure",
+  "author": {
+    "@type": "Person",
+    "name": "Mostafa Magdy ElAws",
+    "alternateName": ["Mustafa Magdy ElAws", "مصطفى مجدي العوص"],
+    "jobTitle": "Planning & Risk Manager",
+    "sameAs": ["https://www.linkedin.com/in/mustafamagdyelaws"]
+  },
+  "about": [{"@type": "Thing", "name": "Construction planning"}, {"@type": "Thing", "name": "Project controls"}]
+}
+</script>
+<style>
+:root{--ink:#0f1726;--mu:#5b6578;--line:#e4e8f0;--bg:#fbfcfe;--ac:#3d6fe0;--ac2:#7c5ce6;--dark:#070b14}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif;font-size:17px;line-height:1.7}
+a{color:var(--ac)}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+header.hero{background:radial-gradient(900px 500px at 15% -10%,rgba(79,140,255,.35),transparent),radial-gradient(800px 500px at 110% 120%,rgba(167,139,250,.28),transparent),var(--dark);color:#eef2fb;padding:28px 0 64px}
+nav{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px}
+nav .logo{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#4f8cff,#a78bfa);display:grid;place-items:center;font-size:15px}
+nav .sp{flex:1}
+nav a{color:#c8d3ea;text-decoration:none;font-weight:500;font-size:14px;margin-left:14px}
+.kick{margin-top:56px;color:#8fb3ff;font-size:12px;letter-spacing:2.2px;font-weight:700;text-transform:uppercase}
+h1{font-size:clamp(34px,6vw,54px);line-height:1.08;letter-spacing:-1.2px;margin:10px 0 14px}
+h1 span{background:linear-gradient(90deg,#6ea2ff,#b79bff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:clamp(17px,2.4vw,20px);color:#c3cde0;max-width:640px;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:22px;color:#9fb0cc;font-size:14px}
+.meta b{color:#eef2fb;font-weight:600}
+.video{margin:-40px auto 0;max-width:900px;padding:0 20px}
+.video video{width:100%;border-radius:16px;box-shadow:0 30px 70px rgba(10,20,40,.35);display:block;background:#000}
+.cap{color:var(--mu);font-size:13.5px;text-align:center;margin-top:10px}
+section{padding:18px 0}
+h2{font-size:27px;letter-spacing:-.4px;line-height:1.25;margin:38px 0 10px}
+h3{font-size:19px;margin:24px 0 6px}
+p{margin:12px 0}
+blockquote{margin:24px 0;padding:16px 20px;border-left:4px solid var(--ac);background:#f1f5ff;border-radius:0 12px 12px 0;font-size:19px;font-weight:600}
+ol li,ul li{margin:6px 0}
+table{width:100%;border-collapse:collapse;margin:18px 0;font-size:15.5px}
+th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--mu)}
+tr.hl td{background:#f1f5ff;font-weight:700}
+.layers{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:16px 0}
+.layers div{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:#fff}
+.layers b{display:block;margin-bottom:2px}
+.layers small{color:var(--mu);font-size:14.5px;line-height:1.55;display:block}
+figure{margin:26px 0}
+figure img,figure video{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+figcaption{color:var(--mu);font-size:13.5px;margin-top:8px}
+.card{border:1px solid var(--line);border-radius:16px;padding:20px 22px;background:#fff;margin:22px 0}
+.cite{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13.5px;background:#f4f6fa;border-radius:10px;padding:12px 14px;word-break:break-word}
+.ar{direction:rtl;text-align:right;font-family:'IBM Plex Sans Arabic',Inter,sans-serif;line-height:1.9}
+.ar th,.ar td{text-align:right}
+.ar blockquote{border-left:0;border-right:4px solid var(--ac);border-radius:12px 0 0 12px}
+footer{border-top:1px solid var(--line);margin-top:50px;padding:26px 0 40px;color:var(--mu);font-size:14px}
+@media (max-width:640px){.layers{grid-template-columns:1fr}nav a{display:none}body{font-size:16px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <nav><div class="logo">◷</div>ChronoMap<div class="sp"></div><a href="#how">How it works</a><a href="#cases">Case studies</a><a href="#cite">Cite</a><a href="#ar">العربية</a></nav>
+    <div class="kick">A planning approach for linear infrastructure</div>
+    <h1>ChronoMap: a <span>map-based</span> planning approach</h1>
+    <p class="lead">The project schedule, played on the real site map, day by day. Primavera P6 stays the engine; the map is how everyone reads it.</p>
+    <div class="meta">
+      <span>By <b>Mostafa Magdy ElAws</b>, Planning &amp; Risk Manager, PMP</span>
+      <span>First published <b><time datetime="2026-11-01">1 November 2026</time></b></span>
+      <span>Jeddah, Saudi Arabia</span>
+    </div>
+  </div>
+</header>
+
+<div class="video">
+  <video controls preload="metadata" poster="assets/intro-poster.png"><source src="assets/chronomap-intro.mp4" type="video/mp4"></video>
+  <div class="cap">ChronoMap in 80 seconds</div>
+</div>
+
+<main class="wrap">
+<section>
+  <blockquote>Everyone is looking at the same schedule. Nobody is seeing the same project.</blockquote>
+  <p>Picture a typical progress meeting on a linear project. The planner presents the updated programme. The client asks which streets will be open next month. The consultant asks why a line has slipped. The site engineer asks where his crews should move after the current section.</p>
+  <p>That gap is one of the most expensive, and least discussed, problems in project controls. <strong>ChronoMap</strong> is the approach I developed to close it.</p>
+</section>
+
+<section>
+  <h2>The problem is not the schedule. It's how we read it.</h2>
+  <p>Primavera P6 is a powerful engine. For a planner, its activities, logic and float are the project. For almost everyone else, the activity list is a wall of text. A Gantt chart tells you <em>when</em> something happens. It rarely tells you <em>where</em>.</p>
+  <p>On a building, that gap is small. On linear works (roads, pipelines, drainage networks and utilities spread across a city) "where" is the whole story:</p>
+  <ul>
+    <li>Which street is closed, and for how long?</li>
+    <li>Which crew is on which line, and where does it go next?</li>
+    <li>If one permit or utility clearance is late, which areas actually move?</li>
+  </ul>
+</section>
+
+<section id="def">
+  <h2>Definition</h2>
+  <div class="card"><strong>ChronoMap</strong> is a map-based planning approach in which each activity of the project schedule is linked to its physical segment on the real site layout, and a single timeline plays the schedule on that map, day by day, so that everyone reads the plan by <em>place</em> as well as by <em>time</em>.</div>
+  <p>A Digital Twin is a live copy of the <em>asset</em>. ChronoMap is a live copy of the <em>plan</em>.</p>
+</section>
+
+<section id="how">
+  <h2>How it works: four layers</h2>
+  <div class="layers">
+    <div><b>1 · The schedule</b><small>The P6 programme stays the source of truth. Every activity keeps its dates, logic and float. Nothing is re-planned outside P6.</small></div>
+    <div><b>2 · The geometry</b><small>Each activity is linked to its segment on the site layout: a pipe run, a road section, a utility crossing. This link is the heart of the method.</small></div>
+    <div><b>3 · The clock</b><small>One timeline drives everything. Segments change state, crews move to their planned locations, and the progress curve and crew histogram advance underneath.</small></div>
+    <div><b>4 · The comparison</b><small>Any two programmes, such as baseline and revised, play side by side on the same map and clock, so the effect of a change is visible area by area.</small></div>
+  </div>
+  <p>The result answers questions an activity list cannot: where will we be working next month, which areas move if a permit slips, and can the site realistically deliver this recovery scenario, crew by crew?</p>
+</section>
+
+<section>
+  <h2>Where ChronoMap sits</h2>
+  <p>Visual planning has strong roots. ChronoMap borrows the location-based mindset, uses the real site layout instead of a BIM model, plays the actual P6 programme, and opens in any browser or phone.</p>
+  <table>
+    <tr><th>Approach</th><th>The question it answers</th></tr>
+    <tr><td>Line of Balance / TILOS</td><td>Which crew is where, and when?</td></tr>
+    <tr><td>4D BIM / Navisworks</td><td>How will the structure go up?</td></tr>
+    <tr><td>Digital Twin</td><td>What is the condition of the asset now?</td></tr>
+    <tr class="hl"><td>ChronoMap</td><td>What does the plan look like on the ground, day by day?</td></tr>
+  </table>
+  <figure><img src="assets/compare.png" alt="ChronoMap compared with Line of Balance, 4D BIM and Digital Twin" loading="lazy"><figcaption>ChronoMap alongside established visual planning methods.</figcaption></figure>
+</section>
+
+<section id="cases">
+  <h2>Case studies</h2>
+  <h3>Stormwater drainage programme, Jeddah</h3>
+  <p>Recovery and revised programmes played on the real project layout. Each crew moves along the street it is scheduled to work on, while the schedule and crew histogram run on the same clock. Baseline and revised play side by side, with the delay event marked on the progress curves, so the client, consultant and site team read the impact the same way.</p>
+  <h3>Wadi Al-Lith Dam: ChronoMap in 3D</h3>
+  <p>The same principle applied to a dam: the revised programme played on a 3D model of the valley. The dam rises layer by layer on the scheduled dates, work sites and delays appear where they happen, and any element can be opened to see the activities behind it.</p>
+  <figure><video controls preload="none" poster="assets/case-dam-poster.jpg"><source src="assets/case-dam.mp4" type="video/mp4"></video><figcaption>Wadi Al-Lith Dam. Project dates and figures are hidden for confidentiality.</figcaption></figure>
+</section>
+
+<section>
+  <h2>The honest limits</h2>
+  <ol>
+    <li><strong>P6 stays the contractual reference.</strong> Delay analysis, extension of time, float and the critical path still live in the activity logic. The map is a layer on top, not a replacement.</li>
+    <li><strong>Bad data looks convincing.</strong> A clean ChronoMap built on poor progress updates misleads faster than a table. Site data quality matters more, not less.</li>
+    <li><strong>Not every project needs it.</strong> The value is highest where location is the challenge: roads, pipelines, utilities and works inside live cities.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>The shift: from building the schedule to deciding with it</h2>
+  <p>Modern tools now handle much of the mechanical side of planning. What they cannot do on their own is know that a permit will be late because an authority hasn't responded, or which recovery scenario a site can actually deliver. The planner's value is moving from maintaining a list of activities to making sure everyone, from the foreman to the client, is looking at the same project.</p>
+</section>
+
+<section id="cite">
+  <h2>How to cite</h2>
+  <div class="cite">ElAws, M. M. (2026). <em>ChronoMap: a map-based planning approach.</em> First published 1 November 2026. Available at: https://mustafa-magdy-elaws.github.io/chronomap/</div>
+  <p style="font-size:15px;color:var(--mu)">The ChronoMap name, method description, text, videos and images on this page are the work of Mostafa Magdy ElAws. © 2026. All rights reserved.</p>
+</section>
+
+<section id="ar" class="ar">
+  <h2>ChronoMap: منهج تخطيط قائم على الخريطة</h2>
+  <blockquote>الجميع ينظر إلى البرنامج الزمني نفسه، لكن لا أحد يرى المشروع نفسه.</blockquote>
+  <p><strong>ChronoMap</strong> منهج تخطيط يُربط فيه كل نشاط في البرنامج الزمني بالمقطع الفعلي الذي يمثله على مخطط الموقع الحقيقي، ويشغّل خط زمني واحد البرنامج على هذه الخريطة يومًا بيوم، فيقرأ الجميع الخطة حسب <em>المكان</em> وليس الزمن فقط.</p>
+  <p>التوأم الرقمي نسخة حية من <em>الأصل</em>. أما ChronoMap فهو نسخة حية من <em>الخطة</em>. ويتكون من أربع طبقات:</p>
+  <ol>
+    <li><strong>البرنامج الزمني:</strong> يبقى برنامج P6 هو المرجع الأساسي، ولا يُعاد التخطيط خارجه.</li>
+    <li><strong>الموقع:</strong> يُربط كل نشاط بالمقطع الفعلي على مخطط الموقع، وهذا الربط هو قلب المنهج.</li>
+    <li><strong>الساعة:</strong> خط زمني واحد يحرّك كل شيء: حالة المقاطع، وحركة الفرق، ومنحنى الإنجاز.</li>
+    <li><strong>المقارنة:</strong> تشغيل البرنامج الأساسي والمعدّل جنبًا إلى جنب على نفس الخريطة والساعة.</li>
+  </ol>
+  <table>
+    <tr><th>الأسلوب</th><th>السؤال الذي يجيب عنه</th></tr>
+    <tr><td>خط التوازن / TILOS</td><td>أي فرقة في أي موقع، ومتى؟</td></tr>
+    <tr><td>4D BIM / Navisworks</td><td>كيف سيُبنى المنشأ؟</td></tr>
+    <tr><td>التوأم الرقمي</td><td>ما حالة الأصل الآن؟</td></tr>
+    <tr class="hl"><td>ChronoMap</td><td>كيف تبدو الخطة على الأرض، يومًا بيوم؟</td></tr>
+  </table>
+  <p>المؤلف: <strong>مصطفى مجدي العوص</strong>، مدير التخطيط والمخاطر، PMP. نُشر لأول مرة في 1 نوفمبر 2026، جدة، المملكة العربية السعودية.</p>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>Mostafa Magdy ElAws</strong> · Planning &amp; Risk Manager · PMP® · Saudi Council of Engineers</div>
+    <div><a href="https://www.linkedin.com/in/mustafamagdyelaws" rel="author">LinkedIn</a> · <a href="https://www.linkedin.com/in/mustafamagdyelaws/recent-activity/all/">Articles &amp; posts</a></div>
+    <div style="margin-top:8px">© 2026 Mostafa Magdy ElAws. ChronoMap: a map-based planning approach.</div>
+  </div>
+</footer>
+</body>
+</html>

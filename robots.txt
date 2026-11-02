@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mustafa-magdy-elaws.github.io/chronomap/sitemap.xml
